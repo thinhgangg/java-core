@@ -52,8 +52,8 @@ public class Product {
 	}
 
 	public Product nhapThongTin(String name, double price, double tax) {
-		Product pr = new Product(name, price, tax);
-		return pr;
+		Product product = new Product(name, price, tax);
+		return product;
 	}
 
 	public void xuatThongTin(Product pr) {

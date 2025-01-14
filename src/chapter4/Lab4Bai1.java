@@ -10,9 +10,9 @@ public class Lab4Bai1 {
 
 		System.out.println("====================");
 
-		Product test = new Product();
-		Product product2 = test.nhapThongTin("computer", 200, 0.2);
-		test.xuatThongTin(product2);
-		System.out.println("TAX = " + test.getTaxPrice(product2.getPrice(), product2.getTax()));
+		Product product = new Product();
+		Product product2 = product.nhapThongTin("computer", 200, 0.2);
+		product.xuatThongTin(product2);
+		System.out.println("TAX = " + product.getTaxPrice(product2.getPrice(), product2.getTax()));
 	}
 }
