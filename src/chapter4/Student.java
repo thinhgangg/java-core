@@ -5,6 +5,11 @@ public class Student {
 	public Student() {
 	}
 
+	public Student(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
 	// attributes
 	private String name;
 	private int age;
@@ -32,11 +37,6 @@ public class Student {
 
 	public void setAddress(String address) {
 		this.address = address;
-	}
-
-	public Student(String name, int age) {
-		this.name = name;
-		this.age = age;
 	}
 
 	// method
