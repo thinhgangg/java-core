@@ -7,7 +7,7 @@ public class test2 {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			int x = scanner.nextInt();
-			System.out.println("run try");
+			System.out.println("run try" + x);
 		} catch (Exception e) {
 			System.out.println("run catch");
 		} finally {
