@@ -10,12 +10,17 @@ public class test {
 		FileOutputStream out = null;
 
 		try {
-			in = new FileInputStream("input.txt");
-			out = new FileOutputStream("output.txt");
+//			absolute path
+			in = new FileInputStream("E:\\CODE\\JAVA\\hoidanit\\src\\chapter10\\input.txt");
+
+//			relative path
+			out = new FileOutputStream("./src/chapter10/output.txt");
+
 			int c;
 			while ((c = in.read()) != -1) {
 				out.write(c);
 			}
+
 		} finally {
 			if (in != null) {
 				in.close();
