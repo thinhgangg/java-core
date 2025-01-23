@@ -54,7 +54,7 @@
 <h2>Chapter 9:</h2>
 <ul>
     <li>Try...catch</li>
-    <li>Keyword finally</li>
+    <li>Keyword Finally</li>
     <li>Keyword Throws and Throw</li>
 </ul>
 
