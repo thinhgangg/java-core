@@ -1,6 +1,6 @@
 <h2>Chapter 1:</h2>
 <ul>
-    <li>Hello world with Java</li>
+    <li>Hello World with Java</li>
 </ul>
 
 <h2>Chapter 2:</h2>
