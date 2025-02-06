@@ -10,7 +10,7 @@ public class test extends Thread {
 		}
 		System.out.println("end thread" + sum);
 	}
-
+	
 	public static void main(String[] args) {
 		int max = 8;
 		for (int i = 0; i < max; i++) {
