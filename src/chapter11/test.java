@@ -16,6 +16,6 @@ public class test extends Thread {
 		for (int i = 0; i < max; i++) {
 			(new test()).start();
 		}
-		System.out.println("finish");
+		System.out.print("finish");
 	}
 }
