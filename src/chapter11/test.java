@@ -8,7 +8,7 @@ public class test extends Thread {
 		for (long i = 0L; i < 10000000000L; i++) {
 			sum += i;
 		}
-		System.out.println("end thread" + sum);
+		System.out.print("end thread" + sum);
 	}
 	
 	public static void main(String[] args) {
