@@ -3,7 +3,7 @@ package chapter11;
 public class test extends Thread {
 	@Override
 	public void run() {
-		System.out.print("start thread");
+		System.out.println("start thread");
 		long sum = 0L;
 		for (long i = 0L; i < 10000000000L; i++) {
 			sum += i;
